@@ -1,1 +1,37 @@
-
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="code/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="code/style.css">
+    </head>
+    <body class="row" id="main">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" id="mynav">
+                    <div class="container-fluid" id="menu">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active" aria-current="page" href="#" id="linktext">Home</a>
+                                <a class="nav-link" href="#" id="linktext">Candidate</a>
+                                <a class="nav-link" href="#" id="linktext">Admin</a>
+                                <a class="nav-link disabled" id="linktext">Submit</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+        <div class="row" id="body">
+            <div class="aligntext" style="padding-top: 100px; padding-left:7px; padding-bottom:1px" >
+                <img src="code/candidatebackground.jpg" style=" width: 180px; height: 200px;">
+            </div>
+            <h1>Welcome</h1>
+            <h5 class="aligntext">SCI/17/18/0634</h5>
+            <button type="button" class="btn btn-primary" id="welcomebutton">
+                <a href="console page.html">start exam</a>
+            </button>  
+        </div>
+    </body>
+</html>
