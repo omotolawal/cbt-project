@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="code/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="code/style.css">
+    </head>
+    <body class="row" id="main">
+                                <nav class="navbar navbar-expand-lg navbar-light bg-light" id="mynav">
+                    <div class="container-fluid" id="menu">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active" aria-current="page" href="#" id="linktext">Home</a>
+                                <a class="nav-link" href="#" id="linktext">Candidate</a>
+                                <a class="nav-link" href="#" id="linktext">Admin</a>
+                                <a class="nav-link disabled" id="linktext">Submit</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+        <div class="row" id="body">
+                <div class="col-sm-6" id="firstcol">
+                    <div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6" id="secondcol">
+                    <div id="candidatedetail">CANDIDATE DETAILS.</div>
+                    <form>
+                        <div class="mb-3 indentform" >
+                            <label for="exampleInputPassword1" class="form-label" id="formtext2">Username</label>
+                            <input type="password" class="form-control" id="formbox2" id="exampleInputPassword1" >
+                        </div>
+                        <div class="mb-3" >
+                            <label for="exampleInputPassword1" class="form-label" id="formtext2">Password</label>
+                            <input type="password" class="form-control" id="formbox2" id="exampleInputPassword1" >
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-primary" id="submitbutton1"><a href="welcome page.html">Enter</a>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </body>
+</html>
