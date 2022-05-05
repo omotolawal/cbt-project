@@ -2,4 +2,4 @@
 
 ## Description 
 
-A computer based test application with new innovative features 
+A Computer Based Test (cbt) web application with new innovative features. 
